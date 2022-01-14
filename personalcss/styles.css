@@ -117,7 +117,9 @@
   color: #836a08;
   font-size: 1rem;
 }
-
+.row{
+    position: static;
+}
 
 
 
