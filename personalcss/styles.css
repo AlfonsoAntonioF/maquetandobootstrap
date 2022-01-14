@@ -106,7 +106,8 @@
 /*************** MODIFICACIONES CONTAINER BOOTSTRAP  ***************/
 
 .container{
-  position: relative;
+    position: static;
+    display: inline-flex;
 }
 
 .card-title{
@@ -339,4 +340,9 @@ textarea{
 	display:block;
 }
 
-
+@media only screen and (max-width:1080px){
+    .container{
+      display: inline;
+      position:static;
+    }
+  }
