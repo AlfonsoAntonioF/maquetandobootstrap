@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+  background: linear-gradient(to top , #b60b0b, #3a0303 );
+    width: 100%;
+    position: fixed;
+    
+  }
+.header__barraPrin{       /*barra principal de la pagina */
+    background: linear-gradient(to top, rgb(189, 171, 35),rgb(233, 212, 126));
+    padding: 5px;
+  
+}
+
+.header__barraPrin ul li {
+
+    display: inline;
+    padding-left:3px;
+    padding-right:3px;
+    margin: 15px;
+
+}
+.header__barraPrin img {
+    width: 50px;
+   
+}
+.header__barraPrin a{
+    display: inline-block;  
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 8, 8);
+    text-decoration: none;
+
+}
+/* ------------------------------------- barra de navegvacion---------------------------------------*/
+.wrapper {
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    text-align: center;
+
+  }
+.wrapper__nav{
+    
+    text-align: center;
+}
+.wrapper__nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  .wrapper__nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .wrapper__nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+
+   .wrapper__nav img{
+    /*width: 40%;*/
+    align-items: center;
+    
+    height: 100%;
+    margin-right: 2rem;
+    margin-left:2rem;
+    padding: 1rem;
+    
+} 
+  .wrapper__nav ul li:hover {
+    background: #570808;
+  }
+/********************************************* modificaciones del navbar de bootstrap**********************************/
+.navbar-brand img{
+  width: 35%;
+}
+.navbar_Cp{
+  background: #570808;
+  position: fixed;
+  width: 100vw;
+}
+.container-fluid--Cp{
+  background: linear-gradient(to top , #b60b0b, #3a0303 );
+  margin: -1rem;
+  padding: 1rem;
+}
+.bg-light li a{
+  color: #d4b122 !important;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.bg-light li a:hover{
+
+  background: rgb(58, 2, 2);
+}
+
+/*************** MODIFICACIONES CONTAINER BOOTSTRAP  ***************/
+
+.container{
+  position: relative;
+}
+
+.card-title{
+  color: #570808;
+}
+.card-text{
+  color: #836a08;
+  font-size: 1rem;
+}
+
+
+
+
+  /*--------------------------------- main -------------------------------------------------------------------*/
+  
+ 
+.main__contenedor img{
+    float: left;
+    width: 99vw;
+}
+  .contenido img{
+      width: 100vw;
+      height: 40%;
+      text-align: center;
+      float: left;
+    
+
+  }
+.main__textContent h2{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(66, 4, 4),rgb(218, 192, 66));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(49, 12, 6);
+
+}
+.main__textContent h3{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(rgb(182, 14, 14),rgb(66, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(49, 12, 6);
+
+}
+.main__textContent p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+.titles h2{
+  background: rgb(107, 3, 3);
+  text-align: center;
+  color: rgb(223, 228, 222);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+ 
+
+}
+.container {
+  display: flex;
+}
+.container__figure{
+  margin: 1rem;
+  
+}
+.container__parrafos{
+  margin: 1rem;
+
+}
+.container__parrafos p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: justify;
+  padding: 2px;
+  color: #3a0303;
+}
+
+
+
+/*--------------------------------------------mapa---------------------------------------------------------------------------------------*/
+.mapa .iframe{
+  width: 100vw;
+}
+
+
+
+/*-------------------------------------------------------pie de pagina--------------------------------------------------------------------*/
+footer {
+  background: linear-gradient(to top ,  #3a0303,#b60b0b ); 
+ 
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+ .contenedor div{
+		border-radius: auto;
+    
+	}
+
+  .contenido img{
+    width: 20rem;
+  }
+
+.contenido{
+      text-align: center;
+		height:100%;
+		width:20%;
+		float:left;
+		margin: 20px;
+    list-style: none;
+    text-decoration: none;
+	}
+  .contenido h3{
+    font-size: 30px;
+    color: ghostwhite;
+    font: normal;
+
+  }
+  .contenido ul{
+    text-decoration: none;
+  }
+.contenido  a{
+  color: rgb(245, 234, 234);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contenido a:hover{
+  color: #3a0303;
+}
+
+/***************acerca de nosotros**************/
+
+.about h1{
+
+  font-size: 35px;
+  width: 50%;
+  height: 50%;
+  
+
+ 
+  
+}
+
+.about img{
+  margin-top: 13%;
+  
+
+  width: 50%;
+  height: 50%;
+  
+
+}
+
+/*********************************************contactanos******************************************************/
+
+.contactus {
+  display: flex;
+  margin: 2rem;
+ 
+
+}
+form {
+  width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgb(160, 147, 84);
+}
+
+form label{
+	width:100px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:5px 2px;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(82, 7, 7);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+  font-size: 2rem;
+	background-color:rgb(87, 11, 11);
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+  background-color: #da1919;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+
